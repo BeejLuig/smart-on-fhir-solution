@@ -3,15 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^6.12.1",
+    "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-epic-spinners": "^0.4.1",
+    "react-scripts": "3.2.0",
+    "rendition": "^11.28.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "prettier --write ./src/*.js ./src/**/*.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,5 +33,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
   }
 }
